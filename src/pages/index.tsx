@@ -46,7 +46,7 @@ const portfolioSections: FeatureSectionProps[] = [
     size: 'small',
     contentAlign: 'bottom-right',
     title: '오목',
-    decription: 'Java Swing을 활용한 나의 첫번째 GUI 게임 구현!',
+    description: 'Java Swing을 활용한 나의 첫번째 GUI 게임 구현!',
     links: [{ label: '프로젝트 보기', href: '#' }],
     isDark: true,
   },
