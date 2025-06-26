@@ -30,7 +30,7 @@ const portfolioSections: FeatureSectionProps[] = [
     isDark: true,
   },
   {
-    id: 'knu-project',
+    id: 'game-project',
     size: 'small',
     contentAlign: 'bottom-right',
     subtitle: 'Personal Project',
@@ -38,6 +38,15 @@ const portfolioSections: FeatureSectionProps[] = [
     description: '게임을 좋아하는 학생들을 위해 간단한 미로 찾기 게임을 개발했습니다.', //'경북대학교 학생들을 위한 교내 물품 대여 및 관리 시스템을 개발했습니다.',
     imageUrl:
       'https://scontent-icn2-1.xx.fbcdn.net/v/t1.6435-9/81280324_2700349823354069_2418322833986813952_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kPJIA6zgHtsQ7kNvwGYcdP1&_nc_oc=AdkfPXf7YJ_UMi6wOoguUz6722t12pvpRj3foU-Ma9Nf4yRFCAcZD0oaIcV-6eGpPNQ&_nc_zt=23&_nc_ht=scontent-icn2-1.xx&_nc_gid=SrfzUeiiTrbYYF2HZ3VU5A&oh=00_AfOXM8TSZTd-LcTo-yxKYJLK0NQUQhl0ei5qn-eAIueQPQ&oe=68840CF8',
+    links: [{ label: '프로젝트 보기', href: '#' }],
+    isDark: true,
+  },
+  {
+    id: 'game-project',
+    size: 'small',
+    contentAlign: 'bottom-right',
+    title: '오목',
+    decription: 'Java Swing을 활용한 나의 첫번째 GUI 게임 구현!',
     links: [{ label: '프로젝트 보기', href: '#' }],
     isDark: true,
   },
