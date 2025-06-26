@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   // --- 기본 사이트 정보 ---
-  title: '정진욱의 포트폴리오',
-  tagline: '코딩과 성장을 사랑하는 개발자 지망생입니다.',
+  title: '정재욱의 포트폴리오',
+  tagline: '끊임없이 성장하는 개발자 정재욱의 이야기',
   favicon: 'img/favicon.svg', // 파비콘 파일명은 실제 파일에 맞게 수정해주세요.
 
   // --- 배포 정보 ---
@@ -52,7 +52,7 @@ const config: Config = {
     },
     image: 'img/favicon.svg', // OG 이미지 경로
     navbar: {
-      title: '정진욱 | 포트폴리오',
+      title: '정재욱 | 포트폴리오',
       logo: {
         alt: '로고',
         src: 'img/favicon.svg', // 로고 파일 경로
@@ -98,7 +98,7 @@ const config: Config = {
           items: [
             {
               label: 'Email',
-              href: 'mailto:your-email@example.com', // 본인의 이메일로 변경
+              href: 'mailto:uk3181@daum.net', // 본인의 이메일로 변경
             },
             {
               label: 'LinkedIn',
