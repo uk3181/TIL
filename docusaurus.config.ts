@@ -52,7 +52,7 @@ const config: Config = {
     },
     image: 'img/favicon.svg', // OG 이미지 경로
     navbar: {
-      title: '정재욱 | 포트폴리오',
+      title: 'uk3181 | Portfolios',
       logo: {
         alt: '로고',
         src: 'img/favicon.svg', // 로고 파일 경로
@@ -81,7 +81,7 @@ const config: Config = {
       style: 'light',
       links: [
         {
-          title: '둘러보기',
+          title: 'View',
           items: [
             {
               label: '기술 스택',
@@ -94,7 +94,7 @@ const config: Config = {
           ],
         },
         {
-          title: '연락하기',
+          title: 'Contact',
           items: [
             {
               label: 'Email',
