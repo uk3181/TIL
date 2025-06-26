@@ -11,8 +11,8 @@ const config: Config = {
   // --- 배포 정보 ---
   url: 'https://uk3181.altruistic-hive.org',
   baseUrl: '/',
-  organizationName: 'your-github-username', // 본인의 GitHub 유저네임으로 변경해주세요.
-  projectName: 'portfolio', // GitHub 레포지토리 이름으로 변경해주세요.
+  organizationName: 'uk3181', // 본인의 GitHub 유저네임으로 변경해주세요.
+  projectName: 'TIL', // GitHub 레포지토리 이름으로 변경해주세요.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
