@@ -57,8 +57,7 @@ const portfolioSections: FeatureSectionProps[] = [
     subtitle: 'My Philosophy',
     title: '함께 성장하는 개발',
     description: '문제 해결 자체를 즐기며, 동료와 지식을 나누고 함께 성장할 때 가장 큰 기쁨을 느낍니다.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    // imageUrl: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     links: [{ label: '개발 이야기', href: '/projects' }],
     isDark: false,
   },
