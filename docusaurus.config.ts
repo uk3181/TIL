@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   // --- 기본 사이트 정보 ---
-  title: '정재욱의 포트폴리오',
+  title: '정재욱_의 포트폴리오',
   tagline: '끊임없이 성장하는 개발자 정재욱의 이야기',
   favicon: 'img/favicon.svg', // 파비콘 파일명은 실제 파일에 맞게 수정해주세요.
 
