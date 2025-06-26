@@ -107,7 +107,7 @@ const config: Config = {
           ],
         },
         {
-          title: '더보기',
+          title: 'More',
           items: [
             {
               label: '경북대학교',
