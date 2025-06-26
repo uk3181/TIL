@@ -20,7 +20,7 @@ const portfolioSections: FeatureSectionProps[] = [
         개발자 정재욱의 이야기
       </>
     ),
-    description: '경북대학교 컴퓨터학부에서 배우고 성장하며, 더 나은 세상을 만드는 기술을 꿈꿉니다.',
+    description: '경북대학교 컴퓨터학부 재학생의 개발 성장 과정을 여러분들께 보여드리겠습니다 :)',
     imageUrl:
       'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     links: [
