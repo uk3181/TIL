@@ -15,9 +15,9 @@ const portfolioSections: FeatureSectionProps[] = [
     contentAlign: 'bottom-left',
     title: (
       <>
-        열정으로 코딩하는
+        끊임없이 성장하는
         <br />
-        개발자 지망생, 정진욱입니다.
+        개발자 정재욱의 이야기
       </>
     ),
     description: '경북대학교 컴퓨터학부에서 배우고 성장하며, 더 나은 세상을 만드는 기술을 꿈꿉니다.',
