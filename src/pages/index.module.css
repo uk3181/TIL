@@ -1,23 +1,133 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
+.heroSection {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15vh 2rem 4rem;
+  background-size: cover;
+  background-position: center;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  box-sizing: border-box;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+.heroSection.isVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.lightSection {
+  color: #1d1d1f;
+}
+
+.lightSection .heroSubtitle {
+  color: #6e6e73;
+}
+
+.lightSection .heroLink {
+  color: #0066cc;
+}
+
+.lightSection .heroLink:hover {
+  color: #0077ed;
+}
+
+.darkSection {
+  color: #f5f5f7;
+}
+
+.darkSection .heroSubtitle {
+  color: #a1a1a6;
+}
+
+.darkSection .heroLink {
+  color: #2997ff;
+}
+
+.darkSection .heroLink:hover {
+  color: #66b5ff;
+}
+
+.heroContent {
+  max-width: 600px;
+}
+
+.heroSubtitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.heroTitle {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.heroDescription {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.heroLinks {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.heroLink {
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.heroLink:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .heroSection {
+    padding-top: 12vh;
+  }
+  .heroTitle {
+    font-size: 2.8rem;
+  }
+  .heroSubtitle {
+    font-size: 1.5rem;
+  }
+  .heroDescription {
+    font-size: 1.1rem;
+  }
+  .heroLinks {
+    flex-direction: column;
+    gap: 1rem;
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.mainContainer {
+  padding: 1rem;
+  background-color: #f5f5f7;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    padding: 0.75rem;
+  }
+  .gridContainer {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
 }

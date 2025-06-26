@@ -1,0 +1,92 @@
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.scrollingWrapper {
+  padding: 4rem 0;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.scrollingContainer {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+}
+
+.scrollingTrack {
+  display: flex;
+  width: fit-content;
+  animation: scroll linear infinite;
+}
+
+.scrollingItem {
+  width: 400px;
+  height: 250px;
+  margin: 0 1rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  transition: transform 0.4s ease, filter 0.4s ease, opacity 0.4s ease;
+}
+
+.scrollingContainer:hover .scrollingItem {
+  opacity: 0.6;
+  filter: grayscale(70%);
+}
+
+.scrollingContainer .scrollingItem:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: scale(1.04);
+}
+
+
+.scrollingItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+}
+
+.itemOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.scrollingItem:hover .itemOverlay {
+  opacity: 1;
+}
+
+.actionButton {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #1d1d1f;
+  padding: 0.6rem 1.25rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  transform: translateY(10px);
+  transition: transform 0.3s ease, background-color 0.2s;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.scrollingItem:hover .actionButton {
+    transform: translateY(0);
+}
+
+.actionButton:hover {
+    background-color: #fff;
+}
